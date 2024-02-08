@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Young+Serif&display=swap');
+
+body{
+    background: #f3e5d8;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 10px;
+   
+}
+
+h2{
+    color: #794d3a;
+}
+
+
+
+.container{
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: #ffffff;
+    padding: 50px;
+}
+.container h1{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Young Serif', serif;
+    font-weight:400;
+    font-size: 28px;
+}
+
+.preparation{
+    background: #fff7fc;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.preparation h2{
+    color: #722a47;
+    margin: 20px;
+}
+
+
+.preparation ul li{
+    margin: 12px;
+}
+
+.preparation li{
+    padding-left:25px;
+}
+
+.preparation ul li::marker{
+    color: #722a47;
+}
+
+.ingredients h2{
+    font-family: 'Young Serif', sans-serif;
+    font-weight:400;
+    font-size: 27px;
+}
+
+.ingredients li{
+padding-left: 25px;
+}
+.ingredients ul li{
+    margin: 10px;
+}
+
+.ingredients ul li::marker{
+    color: #794d3a;
+}
+.instructions h2{
+    font-family: 'Young Serif', serif;
+    font-weight:400;
+    font-size: 27px;
+}
+
+
+.instructions ol li{
+    margin-bottom: 13px;
+    padding-left: 16px;
+}
+.instructions ol li::marker{
+    color: #794d3a;
+    font-family: 'Young Serif', serif;
+    font-weight:bold;
+    font-size: 17px;
+}
+
+hr{
+    margin-bottom: 25px;
+}
+
+.nutrition h2{
+    font-family: 'Young Serif', serif;
+    font-weight:400;
+    font-size: 27px;
+}
+
+.nutrition #color{
+   font-weight: bolder;
+   color: hsl(33, 57%, 31%);
+   font-size: 17px;
+   font-family: 'Young Serif', sans-serif;
+
+}
+
+
+table {
+    width: 450px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    
+}
+
+td {
+    padding: 13px;
+}
+
+tr {
+    border: 1px solid hsl(24, 5%, 18%, 0.3);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}

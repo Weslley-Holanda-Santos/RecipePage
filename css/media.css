@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1335px) {
+    body {
+        margin: 0;
+    }
+
+    .container {
+        width: 100%;
+        height: auto; /* Em vez de uma altura fixa, ajuste para altura automática */
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .container img {
+        border-radius: 0;
+        max-width: 100%; /* Garanta que as imagens não ultrapassem a largura do contêiner */
+        height: auto; /* Mantenha a proporção da imagem */
+    }
+
+    .container h1 {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .container p {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .preparation ul li{
+        font-size: 19px;
+        white-space: nowrap;
+        margin-right: 10px;
+    }
+    .preparation,
+    .ingredients h2,
+    .instructions h2,
+    .nutrition h2 {
+        margin: 20px;
+    }
+
+    .ingredients ul li{
+        font-size: 22px;
+    }
+
+    .instructions ol li {
+        margin-right: 12px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .nutrition table{
+        font-size: 18px;
+    }
+
+    .nutrition #bold{
+        font-weight: bold;
+        font-size: 17px;
+        font-family: 'Young Serif', sans-serif;
+     
+     }
+
+    table {
+        margin: 10px;
+        width: 100%; 
+        max-width: 360px;
+        margin: 0 auto;
+    }
+}
