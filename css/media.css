@@ -24,14 +24,13 @@
     }
 
     .container p {
-        margin: 20px;
+        margin: 15px;
         font-size: 20px;
     }
 
     .preparation ul li{
-        font-size: 19px;
-        white-space: nowrap;
-        margin-right: 10px;
+        font-size: 17px;
+        margin-right: 8px;
     }
     .preparation,
     .ingredients h2,
@@ -47,7 +46,7 @@
     .instructions ol li {
         margin-right: 12px;
         padding: 5px;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .nutrition table{
@@ -56,15 +55,15 @@
 
     .nutrition #bold{
         font-weight: bold;
-        font-size: 17px;
+        font-size: 15px;
         font-family: 'Young Serif', sans-serif;
      
      }
 
     table {
         margin: 10px;
-        width: 100%; 
-        max-width: 360px;
+        width: 90%; 
+        max-width: none;
         margin: 0 auto;
     }
 }
